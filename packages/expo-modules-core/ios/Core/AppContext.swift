@@ -1,4 +1,5 @@
 @preconcurrency import React
+import ExpoModulesJSI
 
 /**
  The app context is an interface to a single Expo app.

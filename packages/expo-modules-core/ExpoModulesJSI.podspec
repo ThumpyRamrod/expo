@@ -26,6 +26,9 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'USE_HEADERMAP' => 'YES',
     'DEFINES_MODULE' => 'YES',
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++20',
+    'SWIFT_OBJC_INTEROP_MODE' => 'objcxx',
+    'OTHER_SWIFT_FLAGS' => "-Xfrontend -clang-header-expose-decls=has-expose-attr",
   }
 
   if use_hermes

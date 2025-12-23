@@ -90,6 +90,8 @@ Pod::Spec.new do |s|
   end
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => header_search_paths.join(' '),
+    'OTHER_SWIFT_FLAGS' => '-Xfrontend -clang-header-expose-decls=has-expose-attr',
+    'SWIFT_OBJC_INTEROP_MODE' => 'objcxx',
   }
   s.user_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => [

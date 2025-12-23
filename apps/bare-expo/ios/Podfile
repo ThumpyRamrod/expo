@@ -17,7 +17,7 @@ end
 prepare_react_native_project!
 
 abstract_target 'BareExpoMain' do
-  pod 'expo-dev-menu', path: '../../../packages/expo-dev-menu', :testspecs => ['Tests', 'UITests']
+  # pod 'expo-dev-menu', path: '../../../packages/expo-dev-menu', :testspecs => ['Tests', 'UITests']
 
   use_expo_modules!(
     includeTests: true,

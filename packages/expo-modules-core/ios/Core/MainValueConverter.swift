@@ -1,5 +1,7 @@
 // Copyright 2024-present 650 Industries. All rights reserved.
 
+import ExpoModulesJSI
+
 /**
  A converter associated with the specific app context that delegates value conversions to the dynamic type converters.
  */
