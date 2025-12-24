@@ -57,4 +57,5 @@ It's designed to work for any native project, whether or not you use Expo and Re
   description="EAS Build is new and rapidly evolving, so we recommend getting familiar with the current limitations."
   href="/build-reference/limitations"
   Icon={Cube01Icon}
-/>
+/> -g eas-cli
+
